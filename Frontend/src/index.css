@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --background: #201a31;
+  --foreground: oklch(100% 0.00011 271.152);
+  --purple: #201a31;
+  --purple2: #2e2241;
+  --grey: #8a8a8c;
+  --green: #49c839;
+  --red: #d50b00;
+}
+
+body{
+  background-color: var(--purple);
+  color: var(--foreground);
+}
